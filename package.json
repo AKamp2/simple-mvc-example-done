@@ -9,13 +9,14 @@
     "pretest": "eslint ./server --fix",
     "test": "echo \"tests complete\""
   },
-  "author": "Cody Van De Mark / Austin Willoughby",
+  "author": "Cody Van De Mark / Austin Willoughby / Aidan Kamp",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.3",
     "compression": "^1.7.4",
     "express": "^4.21.1",
     "express-handlebars": "^8.0.1",
+    "mongodb": "^6.10.0",
     "mongoose": "^8.7.2",
     "serve-favicon": "^2.5.0"
   },
